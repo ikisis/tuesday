@@ -16,7 +16,7 @@ public class BaseController {
 
     @GetMapping("rest/users/{id}")
     public User users(@PathVariable String id) {
-
+        
         return this.userRepository
         .findById(id)
         .orElse(new User("invalid id!", "not found user!", null, "Ghost"));
