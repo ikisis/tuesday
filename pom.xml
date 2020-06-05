@@ -115,7 +115,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<baseDir>http://localhost:${jasmine.serverPort}</baseDir>
+					<baseDir>http://localhost:8080</baseDir>
 					<outputDir>${project.build.directory}/saga-coverage</outputDir>
 					<noInstrumentPatterns>
 						<pattern>.*/spec/.*</pattern>
