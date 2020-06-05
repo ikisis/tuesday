@@ -23,7 +23,7 @@ public class UserMapRepositoryTest {
     @Test
     public void test() {
         
-        val user = new User("id", "John Doe", "2020.05.15", "nothing..");
+        val user = new User("id", "John Doe", "2020.05.15", "nothing");
 
         repository.save(user);
 
